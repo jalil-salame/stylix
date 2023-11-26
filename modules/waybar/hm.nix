@@ -8,6 +8,9 @@ let
 
   colorlessModules = place: ''
     .modules-${place} #workspaces button {
+        border-bottom: 3px solid @base01;
+    }
+    .modules-${place} #workspaces button.persistent {
         border-bottom: 3px solid transparent;
     }
     .modules-${place} #workspaces button.focused,
